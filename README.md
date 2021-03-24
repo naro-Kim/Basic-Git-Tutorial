@@ -26,7 +26,14 @@ References :https://www.youtube.com/playlist?list=PLRx0vPvlEmdD5FLIdwTM4mKBgyjv4
 - git reset
 - git branch
 
+등등
+
 //Git Branch의 개요
 
 - Master Branch에서 Develop Branch, Bug Fix Branch등 다른 목적의 브랜치를 가지치기한다.
 - 이를 통합 브랜치 / 토픽 브랜치라고 일컫는다.
+
+- git branch [branch name]으로 새로운 branch를 만들 수 있다.
+- git checkout [branch name (master / develop)]으로 현재 로컬 저장소의 파일이 가리키는 branch를 이동할 수 있다.
+- git merge [Topic branch name]으로, master branch에 위치해있을 때 타 branch의 파일들을 병합할 수 있다.
+- git branch -d [branch name] 으로, 기능을 다한 branch를 삭제할 수 있다.
