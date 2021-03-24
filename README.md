@@ -37,3 +37,7 @@ References :https://www.youtube.com/playlist?list=PLRx0vPvlEmdD5FLIdwTM4mKBgyjv4
 - git checkout [branch name (master / develop)]으로 현재 로컬 저장소의 파일이 가리키는 branch를 이동할 수 있다.
 - git merge [Topic branch name]으로, master branch에 위치해있을 때 타 branch의 파일들을 병합할 수 있다.
 - git branch -d [branch name] 으로, 기능을 다한 branch를 삭제할 수 있다.
+
+//Git Branch Conflict
+
+- Branch checkout 후 master branch와 develop branch의 소스가 다를 때 git log의 형태도 다르게 되는데, 이 상태에서 master branch에서 병합할 경우 conflict 발생
