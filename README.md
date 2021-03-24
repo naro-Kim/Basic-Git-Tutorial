@@ -19,6 +19,7 @@ References :https://www.youtube.com/playlist?list=PLRx0vPvlEmdD5FLIdwTM4mKBgyjv4
 - git config --global user.name [your user name]
 - git config --global user.email [your email]
 - git commit -m "message contents"
+- git commit --amend
 - git push
 - git push -f
 - git pull
