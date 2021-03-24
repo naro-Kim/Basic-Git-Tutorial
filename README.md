@@ -15,3 +15,13 @@ References :https://www.youtube.com/playlist?list=PLRx0vPvlEmdD5FLIdwTM4mKBgyjv4
 - Remote repository : 원격으로 데이터를 관리하고 모으는 저장소
 
 //Git 명령어
+
+- git config --global user.name [your user name]
+- git config --global user.email [your email]
+- git commit -m "message contents"
+- git push
+- git push -f
+- git pull
+- git merge
+- git reset
+- git branch
